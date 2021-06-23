@@ -49,4 +49,69 @@ public class Karyawan {
         this.namaLengkap = namaLengkap;
         this.gender = gender;
     }
+
+    //getter and setter
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNamaLengkap() {
+        return namaLengkap;
+    }
+
+    public void setNamaLengkap(String namaLengkap) {
+        this.namaLengkap = namaLengkap;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Date getTglLahir() {
+        return tglLahir;
+    }
+
+    public void setTglLahir(Date tglLahir) {
+        this.tglLahir = tglLahir;
+    }
+
+    public Date getTglMasuk() {
+        return tglMasuk;
+    }
+
+    public void setTglMasuk(Date tglMasuk) {
+        this.tglMasuk = tglMasuk;
+    }
+
+    public String getJabatan() {
+        return jabatan;
+    }
+
+    public void setJabatan(String jabatan) {
+        this.jabatan = jabatan;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getTelepon() {
+        return telepon;
+    }
+
+    public void setTelepon(String telepon) {
+        this.telepon = telepon;
+    }
 }
